@@ -11,38 +11,110 @@
       href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Home page</title>
   </head>
   <body>
-    <div class="container">
-      <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#aboutus">About Us</a>
-        <a href="#projects">Projects</a>
-        <a href="#donations">Donations</a>
-        <a href="#contactus">Contact Us</a>
-        <a href="javascript:void(0);" class="icon-1" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+    <!-- <div> -->
+    <div class="topnav-wrapper" id="myTopnav">
+      <div class="header-wrapper">
+        <img class="company-logo" src="./Images/PROJECT-LOGO.svg" alt="" />
+
+        <div class="desktop-nav">
+          <a class="nav-links" href="#home" class="active">Home</a>
+          <a class="nav-links" href="#aboutus">About Us</a>
+          <a class="nav-links" href="#projects">Projects</a>
+          <a class="nav-links" href="#donations">Donations</a>
+          <a class="nav-links" href="#contactus">Contact Us</a>
+        </div>
+
+        <button class="nav-button-icon">
+          <img
+            onclick="toggleMobileMenu()"
+            class="nav-icon"
+            src="./Images/hamburger.png"
+            alt=""
+          />
+        </button>
+
+        <!-- <h1 class="header-title">
+          <img class="company-logo" src="./Images/PROJECT-LOGO.svg" alt="" />
+          Health Care Company Name
+        </h1> -->
       </div>
-      <main></main>
-      <footer class="CFJ-footer">
-        <a class="icons-2" href="https://www.facebook.com">
-          <img src="Images/facebook.svg" alt="facebook-icon"
-        /></a>
-        <a class="icons-2" href="https://instagram.com"
-          ><img src="Images/instagram.svg" alt="instagram-icon"
-        /></a>
-        <a class="icons-2" href="https://twitter.com"
-          ><img src="Images/twitter.svg" alt="twitter-icon"
-        /></a>
-        <a class="icons-2" href="https://pinterest.com"
-          ><img src="Images/pinterest.svg" alt="pinterest-icon"
-        /></a>
-      </footer>
+
+      <div class="topnav">
+        <a class="nav-links" href="#home" class="active">Home</a>
+        <a class="nav-links" href="#aboutus">About Us</a>
+        <a class="nav-links" href="#projects">Projects</a>
+        <a class="nav-links" href="#donations">Donations</a>
+        <a class="nav-links" href="#contactus">Contact Us</a>
+      </div>
     </div>
 
+    <main>
+      <!-- <div class="image-brackground"></div> -->
+      <h2 class="main-title-header">Helping all Families lead better lives</h2>
+      <p class="main-content">
+        We're committed to making a postive impact on the lives of all humans in
+        North Carolina
+      </p>
+      <!-- <img
+        class="background-image"
+        src="./Images/cdc-vt7iAyiwpf0-unsplash.jpg"
+        alt=""
+      /> -->
+      <button onclick="location.href='./about.html'">Learn More</button>
+    </main>
+
+    <footer>
+      <section class="footer socials">
+        <table>
+          <tr>
+            <th>Sunday</th>
+            <td>Closed</td>
+          </tr>
+          <tr>
+            <th>Monday-Saturday</th>
+            <td>9am - 5pm</td>
+          </tr>
+          <tr>
+            <th>Located:</th>
+            <td>
+              1234 Right Up St.<br />
+              Charlotte, NC 28009
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="footer socials">
+        <a class="footer-link" href="https://www.facebook.com">
+          <img
+            class="footer-icon"
+            src="Images/facebook.svg"
+            alt="facebook-icon"
+        /></a>
+        <a class="footer-link" href="https://instagram.com"
+          ><img
+            class="footer-icon"
+            src="Images/instagram.svg"
+            alt="instagram-icon"
+        /></a>
+        <a class="footer-link" href="https://twitter.com"
+          ><img class="footer-icon" src="Images/twitter.svg" alt="twitter-icon"
+        /></a>
+        <a class="footer-link" href="https://pinterest.com"
+          ><img
+            class="footer-icon"
+            src="Images/pinterest.svg"
+            alt="pinterest-icon"
+        /></a>
+      </section>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

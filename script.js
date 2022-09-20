@@ -7,3 +7,14 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+function toggleMobileMenu() {
+  if (
+    document.querySelector(".topnav").style.display === "" ||
+    document.querySelector(".topnav").style.display === "none"
+  ) {
+    document.querySelector(".topnav").style.display = "flex";
+  } else {
+    document.querySelector(".topnav").style.display = "none";
+  }
+}
