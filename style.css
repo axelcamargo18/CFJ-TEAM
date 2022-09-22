@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+body {
+  display: block;
+}
+
+:root {
+  --mainclr: rgb(161, 152, 152);
+  --secclr: hsl(225, 87%, 69%);
+  --third: #dfe4e0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  padding: 1rem 7%;
+  background-color: var(--mainclr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+}
+
+.header #logo {
+  width: 50px;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: 100vh;
+  padding-top: 6%;
+  position: relative;
+  background: url(images/cdc-vt7iAyiwpf0-unsplash.jpg) 0% 0% / cover no-repeat;
+  background-repeat: no-repeat;
+}
+
+.background-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-80%);
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+.background-content h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+.background-content p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+}
+
+.background-content a {
+  background: var(--secclr);
+  padding: 1.5rem 3rem;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.5s ease 0s;
+}
+.about {
+  padding: 6rem 7%;
+  background: var(--third);
+}
+.main-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.inner-about {
+  flex: 1 1 45rem;
+}
+.about-content {
+  width: 80%;
+}
+.about-content h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-family: "Bebas Neue", cursive;
+}
+.about-content p {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.about-content a {
+  background: var(--secclr);
+  padding: 1rem 3rem;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.inner-about .inner-about-image img {
+  width: 100%;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer-link {
+  width: 25px;
+  height: 50px;
+}
