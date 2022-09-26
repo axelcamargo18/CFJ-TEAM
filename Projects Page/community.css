@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-transform: capitalize;
     text-decoration: none;
-    background-color: rgb(161, 152, 152);
+    background-color: #dfe4e0;
     font-family: "Bebas Neue";
 }
 :root {
@@ -53,9 +53,9 @@ h1 {
    padding: 35px;
    margin: 20PX;
    border-style: solid;
-   border-width: medium;
-   border-color: hsl(225, 87%, 69%);
-   background:#dfe4e0;
+   border-width: 50px;
+   border-color: white;
+   background:hsl(225, 87%, 69%);
    grid-column-gap: 100px;
 }
  .content p .projects {
@@ -70,6 +70,7 @@ h1 {
         align-items: center;
         justify-content: center;
         width: 100%;
+        background-color: rgb(161, 152, 152);
         
 }
 /* footer styling */
