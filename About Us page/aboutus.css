@@ -1,0 +1,192 @@
+.container-aboutus {
+    display: flex;
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center;
+    color: WHITE;
+}
+.container-aboutus .about-usdescription h2{
+    font-weight: bold;
+    text-align: center;
+}
+.container-aboutus .about-usdescription {
+    background-image: url(female-medicine-doctor-filling-patient-medical-for-2022-01-19-00-00-10-utc.jpg);
+    background-color: rgb(74, 149, 230);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 100%;
+    padding: 5%;
+}
+
+
+.container-aboutus .about-usdescription p{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    padding: 3%;
+    color: white;
+}
+.about-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    color: rgb(74, 149, 230);
+    padding: 5%;
+}
+.about-nav .nav-item  {
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: white;
+
+}
+
+.vission {
+    align-items: center;
+    justify-content: center;
+}
+
+.vission h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 52px;
+}
+
+.vission p {
+    text-align: center;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    padding: 3%;
+    width: 100%;
+}
+
+.mission {
+    align-items: center;
+    justify-content: center;
+}
+
+.mission h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 52px;
+}
+
+.mission p {
+    text-align: center;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    padding: 3%;
+    width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 52px;
+}
+.title {
+    display: flex;
+    text-align: center;
+    color : black;
+    background-color: white;   
+    height: 100px; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    background-color:rgb(74, 149, 230);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.team .team-member {
+    background-color:  white;
+    margin: 15px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.team .team-member h2{
+    color:black;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team-member h3{
+    color: black;  
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team-member .role{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin: 12px 0;
+    margin-left: 3%;
+    text-transform: uppercase;
+}
+.team .team-member .member_description{
+    color: black;
+    font-size: 12px;
+    margin: 12px 0;
+}
+
+.team .team-member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+}
+
+.team .team-member h2 {
+    margin-left: 70px;
+}
+
+.team .team-member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5%;
+    display: flex;
+    position: absolute;
+}
+
+.hero-pic img {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+
+}
