@@ -7,6 +7,7 @@
     text-transform: capitalize;
     text-decoration: none;
     background-color: rgb(161, 152, 152);
+    font-family: "Bebas Neue";
 }
 :root {
     --mainclr: rgb(161, 152, 152);
