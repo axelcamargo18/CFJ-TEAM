@@ -1,4 +1,11 @@
-
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+}
 :root {
     --mainclr: rgb(161, 152, 152);
     --secclr: hsl(225, 87%, 69%);
