@@ -1,3 +1,38 @@
+
+:root {
+    --mainclr: rgb(161, 152, 152);
+    --secclr: hsl(225, 87%, 69%);
+    --third: #dfe4e0;
+  }
+
+.header {
+    padding: 1rem 7%;
+    background-color: var(--mainclr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+  }
+  
+  .header #logo {
+    width: 50px;
+  }
+  
+  .navbar a {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+    text-decoration: none;
+  }
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  }
 .container-aboutus {
     display: flex;
     font-family: "Arial";
